@@ -68,7 +68,7 @@ public class WaveformAnalyzer : MonoBehaviour
         for (int i = 0; i < maxCount; i++)
         {
             var intervalDb = _dbList[i];
-            intervalDb.loudness = samples[10 * i];
+            intervalDb.loudness = samples[100 * i];
             // intervalDb.time = intervalTime + (float)(10 * i) / 44100;
             _dbList[i] = intervalDb;
         }
