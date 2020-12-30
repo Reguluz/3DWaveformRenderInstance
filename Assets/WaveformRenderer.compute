@@ -30,7 +30,7 @@ void WaveformRenderer (csInput cs_IDs)
 {
     // TODO: insert actual code here!
     uint id =  cs_IDs.GroupID.x * 64 + cs_IDs.GroupThreadID.x * 8 + cs_IDs.GroupThreadID.y;
-    _WaveformOutputs[id] = float3(0, abs(_WaveformTicks[id].loudness*50), id * 0.05);
+    _WaveformOutputs[id] = float3(0, abs(_WaveformTicks[id].loudness), id * 0.05);
     // _WaveformOutputs[id].color = float3(_WaveformTicks[id].loudness, _WaveformTicks[id].loudness, 0);
     // Result[id.xy] = float4(id.x & id.y, (id.x & 15)/15.0, (id.y & 15)/15.0, 0.0);
 }
