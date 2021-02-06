@@ -1,6 +1,6 @@
-# GPU3DWaveform
+# 3DWaveformInstance
 
-This is a project to render waveforms of the runtime played audio clip in scene by using compute shader. It is showed by amount of cubes with different lengths.
+This is a project to render waveforms of the runtime played audio clip in scene by using compute shader and Graphics.DrawMeshInstance. It is showed by amount of cubes with different lengths.
 
 For some unsolved reason that just mono audios can be rendered correctly. I'm still trying to find the solution to support stereo audios.
 
