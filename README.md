@@ -1,5 +1,9 @@
 # 3DWaveformInstance
 
+![](https://raw.githubusercontent.com/Reguluz/ImageBed/master/20210207000137.gif)
+
+![](https://raw.githubusercontent.com/Reguluz/ImageBed/master/20210207001701.gif)
+
 This is a project to render waveforms of the runtime played audio clip in scene by using compute shader and Graphics.DrawMeshInstance. It is showed by amount of cubes with different lengths.
 
 For some unsolved reason that just mono audios can be rendered correctly. I'm still trying to find the solution to support stereo audios.
